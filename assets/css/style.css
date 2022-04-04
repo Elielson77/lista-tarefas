@@ -19,7 +19,7 @@ body{
 
 .container{
   background-color: white;
-  max-width: 50vw;
+  max-width: 80vw;
   margin: 50px auto; 
   padding: 20px;
   border-radius: 5px 20px 5px 20px;
@@ -39,8 +39,8 @@ input, label{
   width: 70%;
 }
 input{
-  padding: 5px 20px;
-  font-size: 1.3em;
+  padding: 2px 15px;
+  font-size: 1em;
   margin-bottom: 15px;
 }
 input:focus{
