@@ -3,6 +3,7 @@ const listUl = document.querySelector('.lista-ul');
 const tarefaInput = document.querySelector('.tarefa');
 
 btnCriar.addEventListener('click', function (e) {
+  if(!tarefaInput.value) { return }
   const tarefaTexto = tarefaInput.value;
   console.log(tarefaTexto);
   limpaInput();
